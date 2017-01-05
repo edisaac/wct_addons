@@ -69,7 +69,7 @@ $.ctrl('32', function() {
 	});
 });
 //Cancel the current object edition
-$.ctrl('Z', function() {
+$.ctrl('27', function() {
 	$('.oe_form_button_cancel').each(function() {
 		if($(this).parents('div:hidden').length == 0){
 			$(this).trigger('click');
@@ -84,7 +84,7 @@ $.ctrl('190', function() {
 			$(this).click();
 		}
 	});
-	$("a:contains('Supprimer')").each(function() {
+	$("a:contains('Eliminar')").each(function() {
 		if($(this).parents('div:hidden').length == 0){
 			$(this).click();
 		}
@@ -96,7 +96,7 @@ $.ctrl('46', function() {
 			$(this).click();
 		}
 	});
-	$("a:contains('Supprimer')").each(function() {
+	$("a:contains('Eliminar')").each(function() {
 		if($(this).parents('div:hidden').length == 0){
 			$(this).click();
 		}
@@ -137,7 +137,7 @@ $.ctrl('D', function() {
 			$(this).click();
 		}
 	});
-	$("a:contains('Dupliquer')").each(function() {
+	$("a:contains('Duplicar')").each(function() {
 		if($(this).parents('div:hidden').length == 0){
 			$(this).click();
 		}
